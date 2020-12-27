@@ -1,6 +1,8 @@
 package com.covid_19.network;
 
 import com.covid_19.model.Constants;
+import com.covid_19.model.Covid;
+import com.covid_19.model.CovidWithCountries;
 
 import java.util.ArrayList;
 
