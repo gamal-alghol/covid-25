@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/statistics"
+        android:icon="@drawable/ic_staticss"
+        android:title="@string/statistics" />
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="@string/message" />
+
+</menu>
+

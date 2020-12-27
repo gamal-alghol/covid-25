@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="get_started_with_you">Get started with you</string>
+    <string name="Continue">Continue</string>
+    <string name="Login">Login</string>
+    <string name="WELCOME">WELCOME</string>
+    <string name="Loginto">Login to continue</string>
+    <string name="verfication">VERFICATION</string>
+    <string name="enter_sms">Enter your SMS code below</string>
+    <string name="verfy">Verify Now</string>
+    <string name="Home">Home</string>
+    <string name="statistics">Statistics</string>
+    <string name="message">Messages</string>
+    <string name="profile">My profile</string>
+    <string name="News">News</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Cases">Cases</string>
+    <string name="todayCases">Today Cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="todayDeaths">Today Deaths</string>
+    <string name="recovered">Recovered</string>
+    <string name="track">track  countries</string>
+    <string name="search">Search</string>
+    <string name="info">information</string>
+
+</resources>
