@@ -9,13 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.covid_19.R;
 import com.covid_19.fregments.HomeFragment;
 import com.covid_19.fregments.StatistiscFragment;
+import com.covid_19.fregments.UsersFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeActivity extends AppCompatActivity {
     public static BottomNavigationView navigationView;
 
     HomeFragment homeFragment;
-   // UsersFragment userFragment ;
+   UsersFragment userFragment ;
             StatistiscFragment statistiscFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         navigationView = findViewById(R.id.bottom_navigation);
         homeFragment = new HomeFragment();
-     //   userFragment=new UsersFragment();
+        userFragment=new UsersFragment();
         statistiscFragment=new StatistiscFragment();
 createNavigationView();
 
@@ -41,8 +42,8 @@ createNavigationView();
                         return true;
 
                     case R.id.messages:
-                     //   if (!userFragment.isAdded())
-                       // getSupportFragmentManager().beginTransaction().replace(R.id.frame_home,userFragment).commit();
+                        if (!userFragment.isAdded())
+                       getSupportFragmentManager().beginTransaction().replace(R.id.frame_home,userFragment).commit();
                     return true;
                     case R.id.statistics:
                         if (!statistiscFragment.isAdded())
