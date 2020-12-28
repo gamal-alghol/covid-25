@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.covid_19.Adabter.CountryAdapter;
+import com.covid_19.Adapter.CountryAdapter;
 import com.covid_19.R;
 import com.covid_19.model.Constants;
 
