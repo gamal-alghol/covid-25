@@ -59,7 +59,7 @@ dependencies {
 
     testImplementation "org.mockito:mockito-core:1.9.5"
     implementation 'com.firebase:firebase-client-android:2.5.0'
-    implementation "com.android.support.test:runner:1.0.2"
     testImplementation 'org.robolectric:robolectric:4.2.1'
     androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
 }
