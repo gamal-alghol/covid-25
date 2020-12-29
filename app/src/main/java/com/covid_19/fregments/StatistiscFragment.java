@@ -16,6 +16,7 @@ import com.covid_19.R;
 import com.covid_19.model.Covid;
 import com.covid_19.network.ApiClient;
 import com.covid_19.network.ApiInterface;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -93,6 +94,7 @@ public class StatistiscFragment extends Fragment {
             @Override
             public void onFailure(Call<Covid> call, Throwable t) {
                 Log.d("ttt", "fuiler  " + t.getMessage());
+                FirebaseCrashlytics.getInstance().log("Email or Password Error");
             }
         });
     }
